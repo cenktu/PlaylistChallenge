@@ -19,7 +19,7 @@ Follow these steps to get the backend running:
 1. Clone the repository to your local machine:
 
    ```bash
-   `git clone <repository-url>`
+   git clone <repository-url>
 
 2. Change into the project directory:
 
