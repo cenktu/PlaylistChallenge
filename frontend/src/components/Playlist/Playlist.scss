@@ -1,0 +1,30 @@
+.carousel-app {
+  overflow: hidden;
+  position: relative;
+  height: 100vh; /* Set the carousel container to full viewport height */
+}
+
+.carousel-container {
+  width: 100%;
+  height: 100%; /* Make the carousel take up the full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.content-item img,
+.content-item video {
+  width: 100%;
+  height: auto;
+  max-height: 100%; /* Ensure images and videos fit vertically */
+  object-fit: contain; /* Maintain aspect ratio and fit within the available space */
+}

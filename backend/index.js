@@ -11,9 +11,6 @@ app.use(bodyParser.json());
 
 app.use('/api', playlistRoutes);
 
-/*app.get("/api",(req,res)=>{
-    res.json('{"playlist":["name","type","url","duration"]}')
-})*/
 
 app.listen(PORT,()=> 
     console.log(`Server running on port: http://localhost:${PORT}`))

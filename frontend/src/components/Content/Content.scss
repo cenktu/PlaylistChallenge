@@ -1,0 +1,41 @@
+/* Content.scss */
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  
+}
+
+.header {
+  
+  background: transparent;
+  text-align: center; /* Align the header text to the right */
+  margin: 20px; /* Remove margin for better alignment */
+  padding: 10px; /* Add some padding for spacing */
+  color: white;
+  
+}
+
+.content-form {
+  padding: 30px; /* Adjust the padding for spacing between the header and form */
+  margin-right: 30px;
+  background-color: white;
+  
+  
+}
+.content-form input, label {
+  display:block;
+  padding: 1px;
+  
+}
+
+/* Center the "Add" button and make it blue */
+.content-form button {
+  margin: 10px auto;
+  background-color: rgba(41,134,204);
+  color: white;
+  border: none;
+  padding: 10px 80px;
+  cursor: pointer;
+}

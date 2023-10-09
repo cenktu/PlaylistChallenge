@@ -2,6 +2,7 @@ import express from 'express';
 
 const router = express.Router();
 
+// Static playlist array
 const playlists = [
     
     {
@@ -24,13 +25,14 @@ const playlists = [
     },
 ];
 
-
+// Get request for the playlists
 router.get('/playlist', (req,res) =>{
     
     res.send(playlists);
     
 });
 
+// Add request for the new playlist item
 router.post("/add",(req,res)=>{
     
     const playlist = req.body;
