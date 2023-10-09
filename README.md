@@ -85,7 +85,7 @@ To start the backend server, run the following command:
 
 The server will start on port `localhost:/3000` by default.
 
-![Screenshot of Project](https://github.com/cenktu/playlistChallenge/frontend/public/screenshots/playlistChallengeFirstIMG.png)
+![Screenshot of Project]([https://github.com/cenktu/playlistChallenge/frontend/public/screenshots/playlistChallengeFirstIMG.png](https://user-images.githubusercontent.com/73163075/273550998-3ac714cc-f1e6-4ee0-a72b-80e6b26eaa3e.png))
 
 Built With
 `React`
